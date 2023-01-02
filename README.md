@@ -2,6 +2,8 @@
 
 This website was created to showcase some of my projects and give recruiters a little more information about who I am and what I am interested in.  It also gave me a chance to learn more about front-end development and tools like React, Redux, CSS, which are used regularly in the tech industry.  
 
+src folder contains all code in js and css + the assets folders holds all js and css code for the pages displayed on the screen.
+
 </br>
 </br
 
