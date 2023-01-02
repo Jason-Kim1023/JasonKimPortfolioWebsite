@@ -1,6 +1,6 @@
 # Jason Kim's Portfolio website utilizing React.js and CSS 💻!!
 
-This website was created to showcase some of my projects and give recruiters a little more information about who I am and what I am interested in.  It also gave me a chance to learn more about front-end development and tools like React, which are used regularly in the tech industry.  
+This website was created to showcase some of my projects and give recruiters a little more information about who I am and what I am interested in.  It also gave me a chance to learn more about front-end development and tools like React, Redux, CSS, which are used regularly in the tech industry.  
 
 </br>
 </br
