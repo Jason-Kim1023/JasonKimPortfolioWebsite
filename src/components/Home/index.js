@@ -3,8 +3,9 @@ import "./index.scss"
 import astro from "../../assets/images/astro.png"
 import AnimatedLetters from "../AnimatedLetters"
 import { useEffect, useState } from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPython, faJava, faAws, faReact, faCss3, faLinux} from '@fortawesome/free-brands-svg-icons'
+import jason from "../../assets/images/Jason.png"
+import cs from "../../assets/images/CS.png"
+import uva from "../../assets/images/UVA.png"
 
 
 const Home = () => {
@@ -20,6 +21,9 @@ const Home = () => {
 
     return (
         <div className = "container home-page">
+            <img src = {jason} className = "jason" alt = "developer"></img>
+            <img src = {uva} className = "uva" alt = "developer"></img>
+            <img src = {cs} className = "cs" alt = "developer"></img>
             <div className = "text-zone">
                 <h1>
                     <span className={letterClass}>H</span>
@@ -33,30 +37,8 @@ const Home = () => {
                     <br/>
                     <AnimatedLetters letterClass = {letterClass} strArray = {jobArray} idx = {22}/>
                 </h1>
-                <h2>Backend Developer / Java and Python / Student at UVA</h2>
+                <h2>Software Developer | Cloud, Databases, AI, ML, etc. | Univ. of Virginia c/o 2024</h2>
                 <Link to = "/contact" className = "flat-button">CONTACT ME</Link>
-            </div>
-            <div className="stage-cube-cont">
-                <div className="cubespinner">
-                    <div className="face1">
-                        <FontAwesomeIcon icon = {faPython} color = "#371a46" />
-                    </div>
-                    <div className="face2">
-                        <FontAwesomeIcon icon = {faJava} color = "#371a46" />
-                    </div>
-                    <div className="face3">
-                        <FontAwesomeIcon icon = {faReact} color = "#371a46" />
-                    </div>
-                    <div className="face4">
-                        <FontAwesomeIcon icon = {faLinux} color = "#371a46" />
-                    </div>
-                    <div className="face5">
-                        <FontAwesomeIcon icon = {faCss3} color = "#371a46" />
-                    </div>
-                    <div className="face6">
-                        <FontAwesomeIcon icon = {faAws} color = "#371a46" />
-                    </div>
-                </div>
             </div>
         </div>
         
