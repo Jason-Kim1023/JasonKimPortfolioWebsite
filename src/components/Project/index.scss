@@ -1,0 +1,18 @@
+.top-left-header {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    margin: 8%; /* Optional: Add spacing */
+    font-size: 2em; /* Adjust size as needed */
+    z-index: 1000; /* Ensure it stays on top if other elements overlap */
+    letter-spacing: 0.1em;
+}
+.astroPlanet {
+    position: absolute;
+    top: -24%;
+    left: 14%;
+    margin: 10%; /* Optional: Add spacing */
+    width: 8%; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    animation: float 6s ease-in-out infinite;
+}

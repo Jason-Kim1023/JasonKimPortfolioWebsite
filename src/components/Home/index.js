@@ -21,9 +21,11 @@ const Home = () => {
 
     return (
         <div className = "container home-page">
-            <img src = {jason} className = "jason" alt = "developer"></img>
-            <img src = {uva} className = "uva" alt = "developer"></img>
-            <img src = {cs} className = "cs" alt = "developer"></img>
+            <div className="triangle-images">
+            <img src={jason} className="jason" alt="developer" />
+            <img src={uva} className="uva" alt="developer" />
+            <img src={cs} className="cs" alt="developer" />
+            </div>
             <div className = "text-zone">
                 <h1>
                     <span className={letterClass}>H</span>

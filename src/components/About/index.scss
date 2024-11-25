@@ -19,6 +19,7 @@
     position: fixed;
     overflow: hidden;
     animation: fadeIn 1s 3.7s backwards;
+    animation: float 2s ease-in-out infinite;
   }
   
   /* Cube spinner inside the first container */
@@ -64,6 +65,7 @@
     position: fixed;
     overflow: hidden;
     animation: fadeIn 1s 3.7s backwards;
+    animation: float 2s ease-in-out infinite;
   }
   
   /* Cube spinner inside the second container */

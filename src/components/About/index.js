@@ -48,7 +48,7 @@ const About = () => {
                 whether through software development, data analysis, or civic engagement. 
                 </p>
                 <p>
-                Feel free to connect with me on Linked in or Github to explore my projects and experiences!  Click on the icons in the bottom-left corner!
+                Feel free to connect with me on Linkedin or Github to explore my projects and experiences!  Click on the icons in the bottom-left corner!
                 </p>
             </div>
 

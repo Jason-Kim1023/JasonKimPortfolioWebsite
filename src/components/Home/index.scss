@@ -97,5 +97,40 @@
             background: #371a46;
         }
     }
-
+    .triangle-images {
+        display: grid;
+        grid-template-rows: auto auto; /* Two rows */
+        grid-template-columns: 1fr 1fr; /* Two columns for the top row */
+        justify-content: end; /* Align the grid to the right */
+        align-items: center; /* Vertically center images in their rows */
+        gap: 50px; /* Add space between images */
+        position: relative;
+        width: 200px; /* Adjust based on how much of the page you want the images to take */
+        margin-left: 80%; /* Push to the right side of the page */
+        animation: float 6s ease-in-out infinite;
+    }
+    
+    .triangle-images img {
+        width: 370px; /* Set all images to the same size */
+        height: 370px; /* Set all images to the same size */
+        object-fit: cover; /* Ensure the images maintain their aspect ratio */
+        border-radius: 10%; /* Optional: Apply a slight rounding to the edges */
+    }
+    
+    .jason {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .uva {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .cs {
+        grid-column: 1 / span 2; /* Span across both columns */
+        grid-row: 2;
+        justify-self: center; /* Center the image below the top two */
+    }
+    
 }
