@@ -7,18 +7,19 @@ const Layout = () => {
         <div className="App">
             <Sidebar />
             <div className="page">
-                <span className = "tags top-tags">&lt;body&gt;</span>
-                
+                <div className="tags top-tags">
+                    <span>&lt;html&gt;</span>
+                    <span className="bodyTop">&lt;body&gt;</span>
+                </div>
                 <Outlet />
-
-                <span className="tags bottom-tags">
-                    &lt;body&gt;
-                    <br />
-                    <span className = "bottom-tag-html">&lt;/html&gt;</span>
-                </span>
+                <div className="tags bottom-tags">
+                    <span className="bodyBot">&lt;/body&gt;</span>
+                    <span>&lt;/html&gt;</span>
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
+
 
 export default Layout

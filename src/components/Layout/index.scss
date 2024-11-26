@@ -5,24 +5,39 @@
 }
 
 .top-tags {
-    bottom: auto;
-    top: 35px;
-    margin-left: 70px;
+    top: 1%;
+    margin-left: 1%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 .tags {
     color: #FFFFFF;
     opacity: 0.6;
     position: absolute;
-    bottom: 0;
     left: 100px;
     font-size: 18px;
     font-family: "La Belle Aurore";
-    margin-left: 40px;
+}
+
+.top-tags span:nth-child(2){
+    margin-left: 20px; /* Adds tab-like indentation */
+}
+.bottom-tags span:nth-child(1) /* Targets </body> in the bottom tags */ {
+    margin-left: 20px; /* Adds tab-like indentation */
+}
+
+.bottom-tags {
+    position: fixed;
+    bottom: 0;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-tag-html {
-    margin-left: -30px;
+    margin-left: 10px; /* Indents </html> */
 }
 
 .container {
@@ -39,6 +54,7 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
 
 .about-page {
     .text-zone {
@@ -68,7 +84,8 @@
             color:#FFFFFF;
             font-size: 18px;
             position: absolute;
-            margin: -25px;
+            margin: -60px;
+            margin-top: 28px;
             left: 15px;
             animation: fadeIn 1s 2.5s backwards;
             opacity: 1;
@@ -81,7 +98,7 @@
             font-size: 18px;
             position: absolute;
             margin-top: 30px;
-            margin-left: 30px;
+            margin-left: 20px;
             animation: fadeIn 1s 2.5s backwards;
             opacity: 1;
         }

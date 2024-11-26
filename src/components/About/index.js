@@ -5,7 +5,6 @@ import astrobal from "../../assets/images/astrobal.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPython, faJava, faAws, faReact, faCss3, faLinux, faJs, faDocker, faGit, faNodeJs} from '@fortawesome/free-brands-svg-icons'
 import { faC, faDatabase } from "@fortawesome/free-solid-svg-icons"
- 
 
 const About = () => {
     const [letterClass, setLetterClass] = useState("text-animate")
@@ -19,6 +18,7 @@ const About = () => {
     return (
         <div className="container about-page">
             <img src = {astrobal} className = "astrobal" alt = "developer"></img>
+
             <div className="text-zone">
                 <h1>
                     <AnimatedLetters
