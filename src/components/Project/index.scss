@@ -7,12 +7,52 @@
     z-index: 1000; /* Ensure it stays on top if other elements overlap */
     letter-spacing: 0.1em;
 }
-.astroPlanet {
+
+.saturn {
+    animation: float 14s ease-in-out infinite;
+
+}
+
+.earth {
+    animation: float 14s ease-in-out infinite;
+}
+
+.metlife {
     position: absolute;
-    top: -24%;
-    left: 15%;
+    top: 6%;
+    left: 4.8%;
     margin: 10%; /* Optional: Add spacing */
     width: 8%; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
-    animation: float 6s ease-in-out infinite;
+    border-radius: 10%;
+    z-index: 3;
+    scale: 1.4;
+    animation: float 14s ease-in-out infinite;
 }
+
+.cfc {
+    position: absolute;
+    top: 48%;
+    left: 5.2%;
+    margin: 10%; /* Optional: Add spacing */
+    width: 8%; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    transform: scale(2);
+    border-radius: 10%;
+    z-index: 3;
+    scale: 1;
+    animation: float 14s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);  /* Adjust this value for upward movement */
+    }
+    100% {
+      transform: translateY(0);  /* Return to the original position */
+    }
+  }
+
